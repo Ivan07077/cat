@@ -1,0 +1,37 @@
+.kot{
+	background-image: url('cat.png');
+	width: 150px;
+	height: 150px;
+	margin-top: 350px;
+	background-size: cover;
+	animation: animat_cat 6s infinite linear;
+
+
+}
+.mouse{
+	background-image: url('mouse.png');
+	width: 150px;
+	height: 150px;
+	animation: animat_cat 3s infinite linear;
+	background-size: cover;
+}
+.border{
+	border: 2px solid #000;
+	margin-bottom: 150px;
+}
+@keyframes animat_cat {
+		100% {
+			margin-left: 150px;
+		}
+		0%{
+			margin-left: 1500px;
+		}
+}
+@keyframes animat_mouse {
+		100% {
+			margin-left: 150px;
+		}
+		0%{
+			margin-left: 1300px;
+		}
+}
